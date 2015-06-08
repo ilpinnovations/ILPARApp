@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/LinearLayout1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+	<SurfaceView
+	    android:id="@+id/video_view"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_gravity="center" />
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@android:color/transparent"
+	    android:layout_marginBottom="0dp"
+	    android:layout_alignParentBottom="true" >
+	    
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+		   <Button
+		        android:id="@+id/btnObject"
+		        android:text="OBJECT"
+		       	android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/buttonshape"
+				android:shadowColor="#A8A8A8"
+				android:shadowDx="0"
+				android:shadowDy="0"
+				android:shadowRadius="5"
+				android:layout_weight="1"
+		       android:alpha="0.5" />
+		   <Button
+		       android:id="@+id/btnBook"
+		       android:text="BOOK"
+		       android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/buttonshape"
+				android:shadowColor="#A8A8A8"
+				android:shadowDx="0"
+				android:shadowDy="0"
+				android:shadowRadius="5"
+				android:layout_weight="1"
+		       android:alpha="0.5" />
+		  </LinearLayout>     
+	</RelativeLayout>
+</RelativeLayout>

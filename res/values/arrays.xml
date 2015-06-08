@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/content</item>		
+		<item>@drawable/highlight</item> 		
+		<item>@drawable/preview</item>		
+		<item>@drawable/next</item>					
+	</array>	
+	<array name="names">
+	    <item>Contents</item>
+	    <item>Highlights</item>
+	    <item>Image Preview</item>
+	    <item>Next Edition</item>
+	</array>
+</resources>
